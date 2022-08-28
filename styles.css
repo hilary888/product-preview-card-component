@@ -48,7 +48,7 @@ main {
 }
 
 .description {
-  padding: 25px;
+  padding: 28px;
 }
 
 .product-type {
@@ -93,16 +93,21 @@ main {
 }
 
 button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: hsl(0deg, 0%, 100%);
   background-color: hsl(158deg, 36%, 37%);
   padding: 15px;
   border: none;
   border-radius: 10px;
   width: 100%;
-}
-button span {
   font-weight: bold;
   font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+}
+button img {
+  margin-right: 10px;
 }
 
 /*# sourceMappingURL=styles.css.map */
