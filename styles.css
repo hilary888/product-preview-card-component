@@ -105,9 +105,48 @@ button {
   font-weight: bold;
   font-size: 15px;
   font-family: "Montserrat", sans-serif;
+  transition: background-color 0.25s;
 }
 button img {
   margin-right: 10px;
+}
+
+button:hover {
+  background-color: hsl(158deg, 40%, 25%);
+}
+
+@media only screen and (min-width: 376px) {
+  .card {
+    flex-direction: row;
+    width: 700px;
+  }
+  .img-container {
+    width: 50%;
+    height: 100%;
+  }
+  .img-container img {
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 10px;
+  }
+  .description {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .description h1 {
+    margin-bottom: 20px;
+  }
+  .description .description-details {
+    margin-bottom: 40px;
+    line-height: 30px;
+  }
+  .description .prices {
+    margin-bottom: 50px;
+  }
+  .product-type {
+    margin-bottom: 30px;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
